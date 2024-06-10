@@ -1,0 +1,35 @@
+package reservation;
+
+public class Representation {
+	
+	private String jour;
+	private String heure;
+	private boolean annulée;
+	
+	public String getJour() {
+		return jour;
+	}
+	public void setJour(String jour) {
+		this.jour = jour;
+	}
+	public String getHeure() {
+		return heure;
+	}
+	public void setHeure(String heure) {
+		this.heure = heure;
+	}
+	public boolean isAnnulée() {
+		return annulée;
+	}
+	public void setAnnulée(boolean annulée) {
+		this.annulée = annulée;
+	}
+	public Representation(String jour, String heure, boolean annulée) {
+		super();
+		this.jour = jour;
+		this.heure = heure;
+		this.annulée = annulée;
+	}
+	
+	
+}
