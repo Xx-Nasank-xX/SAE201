@@ -1,0 +1,12 @@
+package reservation;
+import java.util.*;
+
+public class Reservation {
+	private String numero;
+	private Date date;
+	private Date dateEnvoiConf;
+	private Client compte;
+	private ArrayList<Billet> billet_commande = new ArrayList<>();
+	private Representation larepresentation;
+	
+}
